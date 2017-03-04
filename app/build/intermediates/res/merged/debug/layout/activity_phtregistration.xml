@@ -1,0 +1,227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@layout/background" >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/deptTextView"
+            android:text="Department"
+
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </Spinner>
+
+
+        <TextView
+        android:id="@+id/salutationTextView"
+        android:text="Salutation"
+        android:layout_marginLeft="100dp"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />
+     
+      <Spinner
+        android:id="@+id/salutationSpinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"    
+		/>        
+          
+           
+        <TextView
+        android:id="@+id/firstNameTextView"
+        android:text="First Name"
+        android:layout_marginLeft="100dp"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />        
+            
+        <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"  
+        android:hint="Don't use apostrophes"     
+         />    
+               <TextView
+        android:id="@+id/lastnameTextView"
+        android:text="Last Name"
+        android:layout_marginLeft="100dp"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />        
+            
+        <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" 
+        android:hint="Don't use apostrophes"     
+         />
+        
+       <TextView
+        android:id="@+id/otherNameTextView"
+        android:text="Other Names"
+        android:layout_marginLeft="100dp"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />        
+            
+        <EditText
+        android:id="@+id/otherNameEditText"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" 
+        android:hint="Don't use apostrophes"        
+         />
+             
+          <TextView
+        android:id="@+id/genderTextView"
+         android:layout_marginLeft="100dp"
+        android:text="Gender"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         /> 
+         
+	<RadioGroup
+        android:id="@+id/genderRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:checked="true"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male" 
+            />
+         
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female" />
+ 
+    </RadioGroup> 
+            
+
+        <TextView
+        android:id="@+id/dobTextView"
+         android:layout_marginLeft="70dp"
+        android:text="Date of Birth(dd/mm/yyyy)"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  
+          
+         />        
+           
+        <EditText
+        android:id="@+id/dobEditText"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"       
+         />   
+         
+        <TextView
+        android:id="@+id/emailTextView"
+         android:layout_marginLeft="70dp"
+        android:text="Generic Email(eg ..@gmail.com)"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />        
+            
+        <EditText
+        android:id="@+id/emailEditText"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"       
+         />  
+         
+      <TextView
+        android:id="@+id/msn_emailTextView"
+         android:layout_marginLeft="70dp"
+        android:text="Maseno Email(eg ..@maseno.ac.ke)"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />        
+            
+        <EditText
+        android:id="@+id/msn_emailEditText"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"       
+         />
+        
+        <TextView
+        android:id="@+id/mobilephoneTextView"
+        android:text="Phone Number"
+         android:layout_marginLeft="70dp"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />        
+            
+         <EditText
+        android:id="@+id/mobilephoneEditText"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"       
+         /> 
+          
+        <TextView
+        android:id="@+id/admissionNumberTextView"
+        android:text="Admission Number(e.g AA/1234/2000)"
+        android:layout_marginLeft="70dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />        
+            
+         <EditText
+        android:id="@+id/admissionNumberEditText"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"       
+         /> 
+         
+          <TextView
+        android:id="@+id/programmeTextView"
+         android:layout_marginLeft="70dp"
+        android:text="Study Programme"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  
+         />  
+         
+         <EditText
+        android:id="@+id/programmeEditText"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"       
+         /> 
+       
+        <Button
+        android:id="@+id/nxtButton"
+        android:text="next"
+       android:layout_gravity="center_horizontal"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"  
+        />  
+                      
+   
+</LinearLayout>
+ </ScrollView>
+

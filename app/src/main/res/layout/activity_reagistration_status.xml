@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+     android:background="@layout/background" >
+     <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="2dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/logo" />
+     
+        <TextView
+        android:id="@+id/adm_noTextView"
+        android:text="Your Admission Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+               
+         />
+    
+    <EditText
+        android:id="@+id/adm_noEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+         android:layout_marginLeft="50dp"
+        android:padding="11dp"
+        android:hint="adm. No"
+        android:ems="10"
+         >
+ 
+        <requestFocus />
+    </EditText>
+ 
+    <Button
+        android:id="@+id/statusButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+         android:layout_marginLeft="120dp"
+        android:padding="11dp"
+        android:text="Go" />
+    
+    <TextView
+        android:id="@+id/responseTextView"
+        android:text="response goes here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+               
+         />
+ 
+</LinearLayout>

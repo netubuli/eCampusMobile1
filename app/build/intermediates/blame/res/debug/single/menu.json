@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_trial.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\menu\\activity_trial.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_last.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\menu\\activity_last.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_e_campus_main.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\menu\\activity_e_campus_main.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_phtregistration.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\menu\\activity_phtregistration.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_phtregistrationpage2.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\menu\\activity_phtregistrationpage2.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_duplicate.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\menu\\activity_duplicate.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_reagistration_status.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\menu\\activity_reagistration_status.xml"
+    }
+]

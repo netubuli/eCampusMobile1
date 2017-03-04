@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@layout/background" >
+     
+      <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="2dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/logo" />
+       
+      <TextView
+        android:id="@+id/admYearTextView"
+        android:text="Year of Admission"
+        android:layout_marginLeft="70dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />  
+              
+       <Spinner
+        android:id="@+id/admYearSpinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"    
+		/>
+                    
+      <TextView
+        android:id="@+id/schoolTextView"
+        android:text="School"
+        android:layout_marginLeft="70dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />        
+            
+      <Spinner
+        android:id="@+id/facultySpinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"    
+		/>
+
+        <TextView
+            android:id="@+id/courseCodeTextView"
+            android:text="Course Code"
+            android:layout_marginLeft="70dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Spinner
+            android:id="@+id/courseCodeSpinner"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            />
+              
+        <TextView
+        android:id="@+id/studyYearTextView"
+        android:text="Year of Study"
+        android:layout_marginLeft="100dp"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />  
+         
+         <Spinner
+        android:id="@+id/studyYearSpinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"    
+		/> 
+        
+          <TextView
+        android:id="@+id/campusTextView"
+         android:layout_marginLeft="100dp"
+        android:text="Campus"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         /> 
+         
+        <Spinner
+        android:id="@+id/campusSpinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"    
+		/> 
+		
+        <TextView
+        android:id="@+id/reasons1TextView"
+         android:layout_marginLeft="10dp"
+        android:text="Have you done the orientation course before?"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         /> 
+         
+        <Spinner
+        android:id="@+id/reasons1Spinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"    
+		/> 
+		 <TextView
+        android:id="@+id/reasons2TextView"
+        
+        android:text="Why are you registering for PHT 112 again?"
+      android:layout_width="fill_parent"
+          android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"  
+            
+         /> 
+         <!--  android:layout_width="fill_parent"
+          android:layout_marginLeft="10dp"
+          -->
+                 <Spinner
+        android:id="@+id/reasons2Spinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"    
+		/> 
+		 <TextView
+        android:id="@+id/attemptsTextView"
+         android:layout_marginLeft="10dp"
+        android:text="Your Applicable option regarding PHT112"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         /> 
+        <Spinner
+        android:id="@+id/attemptsSpinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"    
+		/> 
+		<TextView
+        android:id="@+id/informationTextView"
+        android:text="Error:\nDuplicate registration not\n allowed"
+        android:layout_marginLeft="100dp"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+         />  
+ 
+     <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/backButton"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textStyle="bold" />
+
+       
+         <Button 
+        android:id="@+id/submitButton"
+        android:text="submit"   
+        android:layout_marginLeft="15dp"           
+        android:layout_marginRight="15dp"  
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+         </LinearLayout>     
+   
+</LinearLayout>
+ </ScrollView>
+

@@ -1,0 +1,54 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@layout/background" >
+     
+    
+       <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="2dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Thank you.\nYou have successfuly registered for the May 2014 offer of PHT112.\nOrientation to elearning will be on 22of April to 2nd May"
+        tools:context=".lastActivity" 
+      />
+       <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/re_registrationButton"
+        android:layout_marginRight="15dp"    
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Register a friend"
+        android:textStyle="bold" />
+         
+         <Button
+        android:id="@+id/homepageButton"
+        android:layout_marginRight="15dp"    
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Back to Homepage"
+        android:textStyle="bold" />
+              
+         <Button 
+        android:id="@+id/exitButton"
+        android:text="Exit Application"               
+        android:layout_marginRight="15dp"    
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+    </LinearLayout>        
+</LinearLayout>

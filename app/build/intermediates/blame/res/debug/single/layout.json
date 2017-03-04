@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_e_campus_main.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\layout\\activity_e_campus_main.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reagistration_status.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\layout\\activity_reagistration_status.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multiline_spinner_dropdown_item.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\layout\\multiline_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_duplicate.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\layout\\activity_duplicate.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_phtregistrationpage2.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\layout\\activity_phtregistrationpage2.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_phtregistration.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\layout\\activity_phtregistration.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_last.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\layout\\activity_last.xml"
+    },
+    {
+        "merged": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\background.xml",
+        "source": "D:\\androiddd\\Android_studio_codes\\eCampusMobile1\\app\\src\\main\\res\\layout\\background.xml"
+    }
+]

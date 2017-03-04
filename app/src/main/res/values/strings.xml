@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">eCampusMobile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_e_campus_main">eCampusMainActivity</string>
+    <string name="title_activity_phtregistration">phtregistrationActivity</string>
+    <string name="title_activity_phtregistrationpage2">phtregistrationpage2Activity</string>
+    <string name="title_activity_last">lastActivity</string>
+    <string name="title_activity_trial">trialActivity</string>
+    <string name="title_activity_reagistration_status">ReagistrationStatusActivity</string>
+    <string name="title_activity_duplicate">DuplicateActivity</string>
+
+    <string-array name="course_code">
+        <item>PHT 112</item>
+        <item>AEN 105</item>
+
+    </string-array>
+
+</resources>
