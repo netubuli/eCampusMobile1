@@ -1,67 +1,54 @@
- <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
- >
-  
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-     android:background="@layout/background" >
+     android:background="@drawable/background" >
      
     
        <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-         android:layout_marginLeft="2dp"
-        android:layout_alignParentRight="true"
-        android:src="@drawable/logo" />
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/logo"
+           android:contentDescription="@string/logo_description" />
 
-     <Button
-        android:id="@+id/phtregistrationButton"
-         android:layout_marginTop="40dp"
-        android:text="Register for PHT 112"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-           
-         />  
-          <!-- android:textStyle="bold" 
-          android:textSize="25dp"-->   
+         <Button
+            android:id="@+id/phtregistrationButton"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"
+              android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="@drawable/register"/>
+         <!-- android:textStyle="bold"
+         android:textSize="25dp"-->
          <Button
         android:id="@+id/registrationstatusButton"
-         android:layout_marginTop="40dp"
-        android:text="View Registration Status"        
-        android:layout_gravity="center_horizontal"
-        android:layout_width="180dp"
+         android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"
+         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-             
-         />   
-          <!-- android:textStyle="bold" 
-          android:textSize="25dp"
-          -->      
-                
-         <Button 
+             android:background="@drawable/view"/>
+
+         <Button
         android:id="@+id/websiteButton"
-        android:layout_marginTop="40dp"
-        android:text="Visit our Website"               
-        android:layout_gravity="center_horizontal"      
-        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+             android:background="@drawable/visit"/>
         <Button
         android:id="@+id/exitButton"
-        android:layout_marginTop="40dp"   
-        android:text="Exit Application"  
-        android:layout_gravity="center_horizontal"      
-        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-         />
-		<!-- android:textStyle="bold" 
-          android:textSize="25dp"
-          --> 
+            android:background="@drawable/exit"/>
 
 </LinearLayout>
-</ScrollView>
+    </ScrollView>

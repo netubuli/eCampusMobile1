@@ -3,35 +3,35 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" 
-     android:background="@layout/background" >
+     android:background="@drawable/background" >
      <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
          android:layout_marginLeft="2dp"
         android:layout_alignParentRight="true"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo"
+         android:contentDescription="@string/logo_description" />
      
         <TextView
         android:id="@+id/adm_noTextView"
-        android:text="Your Admission Number"
+        android:text="@string/admission_number_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:layout_marginLeft="40dp"
-               
-         />
+            android:textStyle="bold|italic"
+        android:layout_marginLeft="40dp"/>
     
     <EditText
         android:id="@+id/adm_noEditText"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
          android:layout_marginLeft="50dp"
         android:padding="11dp"
-        android:hint="adm. No"
+        android:hint="@string/admission_number"
         android:ems="10"
          >
  
@@ -46,15 +46,16 @@
         android:layout_marginTop="24dp"
          android:layout_marginLeft="120dp"
         android:padding="11dp"
-        android:text="Go" />
+        android:text="@string/status_button_text" />
     
     <TextView
         android:id="@+id/responseTextView"
-        android:text="response goes here"
-        android:layout_width="wrap_content"
+        android:text="@string/response_text_view_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="40dp"
                

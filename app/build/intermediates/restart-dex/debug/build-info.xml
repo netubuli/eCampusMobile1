@@ -3,28 +3,32 @@
     abi="armeabi-v7a,armeabi"
     api-level="22"
     density="xhdpi"
-    format="7"
-    timestamp="602088070534830"
-    token="1414411804479573383" >
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="21256057538022"
+    token="1414411804479573383"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="475" />
+        duration="13131" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="173" />
+        duration="1076" />
     <task
         name="verifier"
-        duration="58" />
+        duration="336" />
 
     <artifact
         location="D:\androiddd\Android_studio_codes\eCampusMobile1\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="602088070534830" >
+    <build
+        timestamp="21256057538022"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\androiddd\Android_studio_codes\eCampusMobile1\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

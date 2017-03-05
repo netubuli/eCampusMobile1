@@ -3,23 +3,24 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-     android:background="@layout/background" >
+     android:background="@drawable/background" >
      
     
        <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
          android:layout_marginLeft="2dp"
         android:layout_alignParentRight="true"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo"
+           android:contentDescription="@string/logo_description" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Thank you.\nYou have successfuly registered for the May 2014 offer of PHT112.\nOrientation to elearning will be on 22of April to 2nd May"
+        android:text="@string/thank_you_nyou_have_successfuly_registered_for_the_may_2014_offer_of_pht112_norientation_to_elearning_will_be_on_22of_april_to_2nd_may"
         tools:context=".lastActivity" 
       />
        <LinearLayout
@@ -32,7 +33,7 @@
         android:layout_marginRight="15dp"    
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Register a friend"
+        android:text="@string/register_a_friend"
         android:textStyle="bold" />
          
          <Button
@@ -40,12 +41,12 @@
         android:layout_marginRight="15dp"    
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Back to Homepage"
+        android:text="@string/back_to_homepage"
         android:textStyle="bold" />
               
          <Button 
         android:id="@+id/exitButton"
-        android:text="Exit Application"               
+        android:text="@string/exit_application"
         android:layout_marginRight="15dp"    
         android:layout_width="150dp"
         android:layout_height="wrap_content"

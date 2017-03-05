@@ -43,7 +43,7 @@ Button Btn_phtregistration,Btn_exit,Btn_website,Btn_registrationstatus;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_e_campus_main);
        // getActionBar().setDisplayHomeAsUpEnabled(true);
-        Drawable d = findViewById(R.id.phtregistrationButton).getBackground();
+      /*  Drawable d = findViewById(R.id.phtregistrationButton).getBackground();
         Drawable e = findViewById(R.id.registrationstatusButton).getBackground(); 
         Drawable f = findViewById(R.id.exitButton).getBackground(); 
         Drawable g = findViewById(R.id.websiteButton).getBackground(); 
@@ -51,7 +51,7 @@ Button Btn_phtregistration,Btn_exit,Btn_website,Btn_registrationstatus;
         d.setColorFilter(filter); 
         e.setColorFilter(filter); 
         f.setColorFilter(filter); 
-        g.setColorFilter(filter); 
+        g.setColorFilter(filter); */
         Btn_phtregistration=(Button)findViewById(R.id.phtregistrationButton);
         Btn_phtregistration.setOnClickListener(new OnClickListener() {
 			
